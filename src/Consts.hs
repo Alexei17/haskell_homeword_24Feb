@@ -1,10 +1,9 @@
 module Consts where
 
 -- | Messages used for bot interactio.
-namePrompt, goodbyeMsg, noTasksMsg, completeMsg, newTaskMsg, botPrompt :: String
+namePrompt, goodbyeMsg, completeMsg, newTaskMsg, botNamePrompt :: String
 namePrompt = "Enter your name: "
 goodbyeMsg = "Goodbye!"
-noTasksMsg = "Bot> "
 completeMsg = "Task completed!"
 newTaskMsg = "New task added!"
-botPrompt = "Bot> "
+botNamePrompt = "Enter name of the bot: "
